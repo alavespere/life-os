@@ -6,6 +6,9 @@
 # Obsidian trash
 .trash/
 
+# Google Drive temp files
+.tmp.driveupload/
+
 # Windows system files
 Thumbs.db
 desktop.ini
