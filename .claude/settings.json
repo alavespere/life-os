@@ -1,0 +1,8 @@
+{
+  "skillsPath": "./_skills",
+  "contextFiles": [
+    "./_OS/_brain/soul.md",
+    "./_OS/_brain/user.md",
+    "./_OS/_brain/memory.md"
+  ]
+}

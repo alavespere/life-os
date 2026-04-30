@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/aaron.lavespere/Downloads/**)",
+      "Bash(ls -la prompt-master-main.zip)",
+      "Bash(unzip -o prompt-master-main.zip -d prompt-master-extracted)",
+      "Bash(cp \"/c/Users/aaron.lavespere/Downloads/prompt-master-extracted/prompt-master-main/SKILL.md\" \"/c/Users/aaron.lavespere/.claude/skills/prompt-master/SKILL.md\")",
+      "Bash(cp \"/c/Users/aaron.lavespere/Downloads/prompt-master-extracted/prompt-master-main/references/templates.md\" \"/c/Users/aaron.lavespere/.claude/skills/prompt-master/references/templates.md\")",
+      "Bash(cp \"/c/Users/aaron.lavespere/Downloads/prompt-master-extracted/prompt-master-main/references/patterns.md\" \"/c/Users/aaron.lavespere/.claude/skills/prompt-master/references/patterns.md\")",
+      "Bash(npx skills *)",
+      "mcp__claude_ai_Gmail__gmail_get_profile",
+      "mcp__claude_ai_Google_Calendar__gcal_list_calendars",
+      "Bash(git *)",
+      "Bash(ssh *)"
+    ]
+  }
+}

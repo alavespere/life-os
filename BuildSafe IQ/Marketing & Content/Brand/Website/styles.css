@@ -1,0 +1,710 @@
+/* =================================================================== */
+/* GLOBAL STYLES & TYPOGRAPHY                                          */
+/* =================================================================== */
+
+/* Basic Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Default body font  */
+    color: #4A4A4A; /* A dark gray for body text for readability */
+    line-height: 1.6;
+    background-color: #FFFFFF; /* Clean White background  */
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Headline font  */
+    color: #1E2A38; /* Midnight Blue for main headers  */
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2.5rem; text-align: center; }
+h3 { font-size: 1.5rem; font-weight: 600; }
+p { margin-bottom: 20px; }
+a { color: #4682A9; text-decoration: none; } /* Steel Teal for links  */
+section { padding: 80px 40px; } /* Consistent spacing for sections */
+
+
+/* =================================================================== */
+/* HEADER & NAVIGATION BAR                                             */
+/* =================================================================== */
+.main-header {
+    background-color: #1E2A38; /* Midnight Blue background  */
+    padding: 15px 40px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF; /* Clean White  */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    color: #FFFFFF; /* Clean White  */
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #4682A9; /* Steel Teal on hover  */
+}
+
+.nav-cta-button {
+    background-color: #4682A9; /* Steel Teal  */
+    color: #FFFFFF; /* Clean White  */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.nav-cta-button:hover {
+    background-color: #5a9ac9;
+}
+
+
+/* =================================================================== */
+/* HERO SECTION                                                        */
+/* =================================================================== */
+.hero-section {
+  /* You will need to have hero-megaproject.jpg in your /public/images/ folder */
+background-image: url('images/hero-megaproject.jpg');
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background-color: rgba(30, 42, 56, 0.6); /* Midnight Blue with 60% opacity  */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-text {
+  color: #FFFFFF; /* Clean White  */
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero-text h1 {
+    color: #FFFFFF; /* Clean White  */
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-text h3 {
+    color: #FFFFFF; /* Clean White  */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* General CTA Button Style */
+.cta-button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #4682A9; /* Steel Teal  */
+    color: #FFFFFF; /* Clean White  */
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #5a9ac9;
+}
+
+
+/* =================================================================== */
+/* PROBLEM, SOLUTION, PROOF, & FINAL CTA SECTIONS                      */
+/* =================================================================== */
+.problem-section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.solution-section {
+    background-color: #f7f9fa; /* A very light gray for contrast */
+}
+
+.solution-columns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto 0;
+    gap: 40px;
+    text-align: center;
+}
+
+.column {
+    flex-basis: 31%;
+}
+
+.proof-section h2 {
+    margin-bottom: 60px;
+}
+
+.proof-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stats {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.stat-item {
+    margin-bottom: 40px;
+}
+
+.stat-number {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #4682A9; /* Steel Teal  */
+}
+
+.stat-label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    color: #7B8A99; /* Slate Gray  */
+    font-weight: 600;
+}
+
+.case-study-link {
+    flex-basis: 50%;
+    background-color: #f7f9fa;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.cta-button-secondary {
+    background-color: transparent;
+    color: #4682A9; /* Steel Teal  */
+    border: 2px solid #4682A9; /* Steel Teal  */
+    padding: 13px 28px;
+}
+.cta-button-secondary:hover {
+    background-color: #4682A9; /* Steel Teal  */
+    color: #FFFFFF; /* Clean White  */
+}
+
+
+.final-cta-section {
+    background-color: #1E2A38; /* Midnight Blue  */
+    text-align: center;
+    color: #FFFFFF; /* Clean White  */
+}
+
+.final-cta-section h2, .final-cta-section h3 {
+    color: #FFFFFF; /* Clean White  */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.final-cta-section h3 {
+    font-weight: 400;
+}
+
+
+/* =================================================================== */
+/* FOOTER                                                              */
+/* =================================================================== */
+.main-footer {
+    background-color: #f7f9fa;
+    padding: 60px 40px 20px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto 40px;
+    gap: 40px;
+}
+
+.footer-column {
+    flex-basis: 30%;
+}
+.footer-column h4 {
+    margin-bottom: 15px;
+}
+.footer-column ul {
+    list-style: none;
+}
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.newsletter-form input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+.newsletter-form button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: #4682A9; /* Steel Teal  */
+    color: #FFFFFF; /* Clean White  */
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #7B8A99; /* Slate Gray  */
+}
+/* =================================================================== */
+/* EXPERTISE PAGE STYLES                                               */
+/* =================================================================== */
+
+.page-hero {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+
+.page-hero h1 {
+    font-size: 3rem;
+}
+
+.page-hero h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #7B8A99; /* Slate Gray */
+}
+
+.image-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto 80px auto; /* Adds space below the image */
+    padding: 0 40px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.expertise-details {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 40px 80px 40px;
+}
+
+.expertise-details h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.credentials-list {
+    list-style: none; /* Removes default bullet points */
+    padding-left: 0;
+}
+
+.credentials-list li {
+    font-size: 1.1rem;
+    padding-left: 30px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+/* Creates a custom checkmark icon for the list */
+.credentials-list li::before {
+    content: '✔';
+    color: #4CAF50; /* Smart Green */
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+/* =================================================================== */
+/* CASE STUDY PAGE STYLES                                              */
+/* =================================================================== */
+
+.case-study-hero {
+  /* ADD THIS LINE */
+  background-image: url('images/case-study-hero.jpg');
+
+  /* Other styles are already here */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 60vh; 
+  width: 100%;
+}
+
+.summary-section {
+    background-color: #f7f9fa; /* Light gray background */
+}
+
+.summary-box {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    text-align: left;
+}
+
+.summary-column {
+    flex-basis: 31%;
+    border-left: 4px solid #4682A9; /* Steel Teal accent */
+    padding-left: 20px;
+}
+
+.summary-column h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #7B8A99; /* Slate Gray */
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.details-section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 80px 40px 40px 40px;
+}
+
+.details-content h2 {
+    text-align: left;
+    margin-top: 40px;
+}
+
+.results-section {
+    background-color: #f7f9fa; /* Light gray background */
+}
+
+.results-grid {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto 0;
+    gap: 40px;
+    text-align: center;
+}
+
+.result-card {
+    flex-basis: 31%;
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.data-graphic {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.result-card h3 {
+    font-size: 1.5rem;
+    color: #1E2A38;
+}
+/* =================================================================== */
+/* BLOG & ARTICLE PAGE STYLES                                          */
+/* =================================================================== */
+
+.newsletter-cta-section {
+    background-color: #1E2A38; /* Midnight Blue */
+    color: #FFFFFF;
+    text-align: center;
+}
+.newsletter-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.newsletter-content h2, .newsletter-content p {
+    color: #FFFFFF;
+}
+
+.blog-grid-section {
+    background-color: #f7f9fa;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.article-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.article-image-placeholder {
+    height: 200px;
+    background-color: #e0e0e0; /* Placeholder color */
+}
+
+.article-card-content {
+    padding: 25px;
+}
+
+.card-tag {
+    display: inline-block;
+    background-color: #eef5fa;
+    color: #4682A9; /* Steel Teal */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.read-more {
+    font-weight: 700;
+    color: #4682A9; /* Steel Teal */
+}
+
+.article-card.placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+    color: #7B8A99;
+}
+
+/* Individual Article Styles */
+.article-main {
+    padding: 80px 20px;
+    background-color: #FFFFFF;
+}
+
+.article-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.article-header {
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 40px;
+}
+.article-header h1 {
+    font-size: 3.5rem;
+}
+.article-subtitle {
+    font-size: 1.25rem;
+    color: #7B8A99;
+    margin-top: -15px;
+}
+.article-meta {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #7B8A99;
+}
+
+.article-content h2 {
+    text-align: left;
+    margin-top: 40px;
+}
+.article-content h3 {
+     text-align: left;
+    margin-top: 30px;
+}
+
+.article-cta-box {
+    text-align: center;
+    border: 2px solid #4682A9;
+    border-radius: 8px;
+    padding: 40px;
+    margin-top: 60px;
+}
+/* =================================================================== */
+/* CONTACT PAGE STYLES                                                 */
+/* =================================================================== */
+
+.contact-section {
+    padding: 40px 40px 80px 40px;
+    background-color: #f7f9fa;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+    background-color: #FFFFFF;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.contact-details {
+    flex-basis: 40%;
+}
+
+.contact-details h3 {
+    text-align: left;
+}
+
+.contact-info-item {
+    margin-bottom: 20px;
+}
+
+.contact-info-item strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form-container {
+    flex-basis: 60%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.contact-form .cta-button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+/* =================================================================== */
+/* DISCOVERY CALL LANDING PAGE STYLES                                  */
+/* =================================================================== */
+
+.simple-header {
+    padding: 20px 40px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.discovery-call-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 60px auto;
+    gap: 60px;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.info-block {
+    flex-basis: 50%;
+}
+
+.info-block h1 {
+    font-size: 2.5rem;
+}
+
+.info-block .credentials-list li::before {
+    /* Overriding the checkmark for a simpler bullet */
+    content: '▪';
+    color: #4682A9; /* Steel Teal */
+}
+
+.scheduling-widget-container {
+    flex-basis: 50%;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.scheduling-widget-container h3 {
+    text-align: center;
+}
+
+.scheduling-widget-placeholder {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f9fa;
+    color: #7B8A99;
+    border-radius: 5px;
+    margin-top: 20px;
+}

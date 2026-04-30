@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "description": "City-level construction permit baseline data for trend analysis. Updated weekly by Apps Script pipeline. Read by /score-risk and /weekly-brief skills.",
+    "last_updated": "2026-04-27",
+    "schema_version": "1.0"
+  },
+  "cities": {
+    "boston": {
+      "metro": "Boston, MA",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["biotech", "lab", "mixed-use", "institutional"],
+      "risk_notes": ""
+    },
+    "new_york": {
+      "metro": "New York City, NY",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["high-rise", "mixed-use", "infrastructure"],
+      "risk_notes": ""
+    },
+    "chicago": {
+      "metro": "Chicago, IL",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["industrial", "logistics", "mixed-use"],
+      "risk_notes": ""
+    },
+    "dallas_fort_worth": {
+      "metro": "Dallas-Fort Worth, TX",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["industrial", "office", "multifamily"],
+      "risk_notes": ""
+    },
+    "miami": {
+      "metro": "Miami, FL",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["mixed-use", "luxury-residential", "hospitality"],
+      "risk_notes": "Climate risk — wind, flood exposure"
+    },
+    "phoenix": {
+      "metro": "Phoenix, AZ",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["industrial", "data-center", "multifamily"],
+      "risk_notes": "Water risk, heat exposure"
+    },
+    "seattle": {
+      "metro": "Seattle, WA",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["tech-office", "multifamily", "mixed-use"],
+      "risk_notes": "Seismic zone"
+    },
+    "denver": {
+      "metro": "Denver, CO",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["multifamily", "industrial", "mixed-use"],
+      "risk_notes": ""
+    },
+    "atlanta": {
+      "metro": "Atlanta, GA",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["industrial", "data-center", "film-studio"],
+      "risk_notes": ""
+    },
+    "los_angeles": {
+      "metro": "Los Angeles, CA",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["mixed-use", "multifamily", "infrastructure"],
+      "risk_notes": "Seismic zone, wildfire adjacent areas"
+    },
+    "new_hampshire": {
+      "metro": "New Hampshire / New England",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["commercial", "light-industrial", "mixed-use"],
+      "risk_notes": "Aaron's home market"
+    }
+  }
+}
