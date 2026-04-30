@@ -85,13 +85,21 @@
       "primary_project_types": ["mixed-use", "multifamily", "infrastructure"],
       "risk_notes": "Seismic zone, wildfire adjacent areas"
     },
-    "new_hampshire": {
-      "metro": "New Hampshire / New England",
+    "detroit": {
+      "metro": "Detroit, MI",
       "permit_baseline_monthly": null,
       "last_4_weeks": [],
       "trend": "unknown",
-      "primary_project_types": ["commercial", "light-industrial", "mixed-use"],
-      "risk_notes": "Aaron's home market"
+      "primary_project_types": ["industrial", "automotive", "mixed-use", "multifamily"],
+      "risk_notes": "Auto industry redevelopment, brownfield sites"
+    },
+    "minneapolis": {
+      "metro": "Minneapolis-St. Paul, MN",
+      "permit_baseline_monthly": null,
+      "last_4_weeks": [],
+      "trend": "unknown",
+      "primary_project_types": ["multifamily", "industrial", "mixed-use"],
+      "risk_notes": "Cold climate construction, freeze-thaw cycle risk"
     }
   }
 }

@@ -159,7 +159,8 @@ Do NOT add these to Feedly.
 | Seattle | `"Seattle" AND ("commercial real estate" OR "construction starts" OR "tech development")` |
 | Denver | `"Denver" AND ("commercial real estate" OR "construction starts" OR "population growth")` |
 | Phoenix | `"Phoenix" AND ("commercial real estate" OR "construction starts" OR "water risk")` |
-| New Hampshire / New England | `"New Hampshire" AND ("construction" OR "commercial real estate" OR "development")` |
+| Detroit | `"Detroit" AND ("commercial real estate" OR "construction starts" OR "automotive development")` |
+| Minneapolis | `"Minneapolis" AND ("commercial real estate" OR "construction starts" OR "industrial development")` |
 
 ---
 
