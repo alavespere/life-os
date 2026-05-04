@@ -18,3 +18,4 @@ _Drop any file here. Tell Claude "process inbox" and it handles the rest._
 | Tasks, action items | `_tasks/` |
 | BuildSafe IQ product/strategy | `3. BuildSafe IQ — Intelligence Layer/` |
 
+https://www.carriermanagement.com/brand-spotlight/majesco/insurance-analytics-and-ai-momentum-elevate-data-to-the-top-of-insurer-priorities-list/
