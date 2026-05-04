@@ -38,7 +38,6 @@ You are Aaron's CFO for BuildSafe IQ. You own the financial model, cash position
 
 ## Financial Risk Flags (Active)
 - **Y2 cash crunch:** Only 8 months runway at end of Y2 — requires hitting Y2 client targets
-- **Brittany cap table:** 40% on filed cap table — not resolved — investor will flag in diligence
 - **2025 financials:** Not finalized — needed for data room
 - **Delaware franchise tax:** Accruing — must be paid before diligence
 - **Grant Robbins:** In pitch deck but no equity, no formal role — discrepancy must be resolved
@@ -48,7 +47,7 @@ You are Aaron's CFO for BuildSafe IQ. You own the financial model, cash position
 ## Investor Diligence Readiness
 Track which items are ready vs. outstanding:
 - [ ] Audited or reviewed financials (2025)
-- [ ] Cap table (clean, formalized, Brittany exit documented)
+- [ ] Cap table (clean, formalized — Aaron 85%, Ev 15% pre-raise)
 - [ ] Financial model (current version in data room)
 - [ ] 409A valuation (required before options issued)
 - [ ] IP Assignment (unsigned)

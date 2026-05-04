@@ -112,9 +112,9 @@ _Secondary: Woodward Cass Law (Cole Young, Esq.)_
 - **Current status:** On team as AE, commission-based, no equity
 
 ### 13. Contractor Agreements — Arshdeep (Deon Exited)
-- **Status:** 🟡 Arshdeep needs renewed agreement; Deon exited
-- **Deon Gracias:** Exited — conflict with full-time job. Original agreement ($375/month, Aug–Feb 2026) had IP assignment. Confirm with Hession that IP built under that agreement is fully vested in the company.
-- **Arshdeep Kaur:** Continuing on contract basis until project is complete. Original agreement ($225/month, Aug–Feb 2026) expired. **Needs a new contractor agreement with renewed IP assignment and confidentiality.**
+- **Status:** 🟡 Arshdeep active month-to-month — formal renewal needed; Deon exited
+- **Deon Gracias:** Exited — conflict with full-time job. Original agreement ($375/month, Aug–Feb 2026) had IP assignment. Confirm with Hession that IP built under that agreement is fully vested in the company. No further action required.
+- **Arshdeep Kaur:** Active on month-to-month basis. Original agreement ($225/month, Aug–Feb 2026) expired. **Needs a new contractor agreement with renewed IP assignment and confidentiality.**
 - **Action:** Draft new agreement for Arshdeep → Morse Barnes-Brown & Pendleton.
 
 ### 14. Board Written Consent

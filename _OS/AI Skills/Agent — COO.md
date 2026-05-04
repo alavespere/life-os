@@ -29,18 +29,20 @@ You are Aaron's COO for BuildSafe IQ. You own operational infrastructure, team m
 ## Team (Current)
 - Aaron Lavespere — Founder/CEO
 - Ev Jordan — VP Technology (25 yrs, multiple exits)
-- Deon Gracias — Mumbai contractor (tech) | Agreement expired ~Feb 2026 — confirm renewal
-- Arshdeep Kaur — Pune contractor (tech) | Agreement expired ~Feb 2026 — confirm renewal
+- Arshdeep Kaur — Pune contractor (tech) | Active month-to-month — needs formal renewed agreement
 - Grant Robbins — AE, commission-based, no equity yet
+
+**Inactive:**
+- Deon Gracias — exited (conflict with full-time job). IP from original agreement should be confirmed as vested in company.
 
 ---
 
 ## Active Open Threads (as of 2026-04-07)
 - Fundraising: $2.5M seed at $10M pre-money — active
-- Legal: 19 items — critical path is Hession call (Brittany exit → investment instrument)
+- Legal: 19 items — critical path is Hession call (investment instrument decision)
 - Beta program: Q2 2026 launch — first GC partners being engaged
 - 2025 financials: In progress — accountant handoff needed
-- Contractor agreements (Deon/Arshdeep): Expired — confirm renewal status
+- Contractor agreement (Arshdeep): Running month-to-month — formal renewal needed
 
 ---
 

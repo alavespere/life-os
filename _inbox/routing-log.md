@@ -55,11 +55,11 @@ Source: `_inbox/extracted3/Project Performance Accelerator Initiative/`
 
 ---
 
-### Flagged for Manual Review
+### Legal Files — Resolved (2026-05-04)
 
-- **`BuildSafe_IQ_Cap_Table.csv`** — ⚠️ STALE. Shows Aaron 60% / Brittany 40%. Superseded by exit confirmation (current: Aaron 85% / Ev 15%). Proposed destination: `BuildSafe IQ/Legal/Cap Table — Stale Pre-Brittany Exit.csv`. Do not rely on this for any active purpose.
-- **`BuildSafeOL.docx`** — Arshdeep Kaur internship offer letter. Aug 2025 – Feb 2026, $225/month. **Expired.** Proposed: `BuildSafe IQ/Legal/Offer Letter — Arshdeep Kaur (Expired Feb 2026).docx`
-- **`BuildSafeOLDeon.docx`** — Deon Gracias contractor agreement. Aug 2025 – Feb 2026, $375/month. **Expired.** Proposed: `BuildSafe IQ/Legal/Contractor Agreement — Deon Gracias (Expired Feb 2026).docx`
+- **`BuildSafe_IQ_Cap_Table.csv`** — Replaced with `BuildSafe IQ/Legal/Cap Table — Pre-Raise (Informal).csv` reflecting current ownership: Aaron 85%, Ev 15%. ✅
+- **`BuildSafeOL.docx`** — Arshdeep Kaur offer letter. Expired Feb 2026. Arshdeep continuing on month-to-month basis. Formal renewal agreement needed. Proposed: `BuildSafe IQ/Legal/Offer Letter — Arshdeep Kaur (Expired Feb 2026).docx`
+- **`BuildSafeOLDeon.docx`** — Deon Gracias contractor agreement. Expired Feb 2026. Deon is no longer active. Proposed: `BuildSafe IQ/Legal/Contractor Agreement — Deon Gracias (Expired Feb 2026).docx`
 
 ---
 
@@ -67,7 +67,7 @@ Source: `_inbox/extracted3/Project Performance Accelerator Initiative/`
 
 | Item | Action |
 |------|--------|
-| Arshdeep active engagement | New contractor agreement needed — expires Feb 2026 per Legal Tracker item 13 |
+| Arshdeep contractor agreement | Formal renewal needed — currently month-to-month (Legal Tracker item 13) |
 
 ---
 

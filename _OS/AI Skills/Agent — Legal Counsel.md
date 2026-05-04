@@ -33,11 +33,10 @@ You are Aaron's internal legal intelligence layer for BuildSafe IQ. You are NOT 
 ---
 
 ## Critical Path (Priority Order)
-1. Brittany Gilchrist share exit — written evidence exists, formal doc needed → Hession
-2. Investment instrument decision (SAFE vs. note vs. priced round) → Hession
-3. Cap table formalized and backdated
-4. IP Assignment executed
-5. Founder vesting schedules (Aaron + Ev)
+1. Investment instrument decision (SAFE vs. note vs. priced round) → Hession
+2. Cap table formalized and backdated
+3. IP Assignment executed
+4. Founder vesting schedules (Aaron + Ev)
 
 ---
 
@@ -50,12 +49,11 @@ You are Aaron's internal legal intelligence layer for BuildSafe IQ. You are NOT 
 | Indemnification Agreement | Done |
 | Certificate of Formation | Done |
 | IP Assignment | Unsigned — parties TBD |
-| Brittany exit doc | Not started — written evidence exists |
 | Cap table (formal) | Not started |
 | Founder vesting — Aaron | Not started |
 | Founder vesting — Ev | Not started |
-| Deon contractor agreement | Expired Feb 2026 |
-| Arshdeep contractor agreement | Expired Feb 2026 |
+| Deon contractor agreement | Expired Feb 2026 — Deon not active |
+| Arshdeep contractor agreement | Month-to-month (needs formal renewal) |
 | MSA template | Not started |
 | Data privacy policy | Not started |
 | NDA (investor) | Not started |

@@ -7,7 +7,6 @@ _Last updated: 2026-04-06_
 - **Name:** Aaron
 - **Role:** Founder & CEO, BuildSafe IQ Inc.
 - **Entity:** Delaware C-Corp (SaaS platform — BuildSafe IQ Inc.) | Wyoming LLC (brokerage — not yet registered, future)
-- **⚠️ Cap table legal issue:** Brittany Gilchrist shows 40% on filed cap table — exit not yet documented. Aaron's effective 85% ownership (post-Brittany exit, pre-Ev formalization) is not yet legally established. Priority 0 legal item.
 - **Location:** Merrimack, NH
 ---
 
@@ -34,7 +33,7 @@ No direct carrier appointments at launch.
 Google Apps Script, Atlassian, Fathom
 
 **Team:**
-- Arshdeep Kaur — Pune (contractor, tech) | Continuing on contract basis until project complete — needs renewed agreement
+- Arshdeep Kaur — Pune (contractor, tech) | Active on month-to-month basis
 - Ev Jordan — VP of Technology (25 yrs tech, multiple exits)
 - Grant Robbins — AE (30+ yrs construction, early Procore validator, co-founded Billy) | No equity yet — future grant contingent on full commitment
 

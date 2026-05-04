@@ -82,6 +82,20 @@ _Last entry: 2026-04-06_
 **Linked files:** [[Legal Tracker]]
 ---
 
+### 2026-05-04 — Legal — Brittany Gilchrist — No Claim, No Involvement
+**Type:** Decision
+**Context:** Aaron confirmed Brittany has no claim on the company and has not been involved in over a year.
+**Entry:** Brittany Gilchrist is not a shareholder and has no claim on BuildSafe IQ Inc. Aaron has a text trail confirming she wants nothing from the company. She signed no documents. No formal exit paperwork needed. Cap table is Aaron 85% / Ev 15% pre-raise. Do not reference Brittany in any active legal items, risk flags, or ownership discussions. All prior references in vault updated to reflect this.
+**Linked files:** [[Legal Tracker]], [[Cap Table — Pre-Raise (Informal).csv]]
+---
+
+### 2026-05-04 — Team — Deon Exited; Arshdeep Month-to-Month
+**Type:** Update
+**Context:** Aaron clarified current contractor status during routing run.
+**Entry:** Deon Gracias is no longer working with BuildSafe IQ — exited due to conflict with full-time job. No active engagement. IP from original agreement should be confirmed as vested in company (Hession). Arshdeep Kaur is continuing on a month-to-month basis — not tied to project completion. Formal contractor renewal agreement still needed.
+**Linked files:** [[Legal Tracker]]
+---
+
 ### 2026-04-07 00:30 — Ops — Master Folder Routed to Vault
 **Type:** Decision
 **Context:** Processed Project Performance Accelerator Initiative master folder (129 files).
