@@ -14,7 +14,8 @@
       "Bash(ssh *)",
       "mcp__claude_ai_Google_Drive__search_files",
       "mcp__claude_ai_Google_Drive__list_recent_files",
-      "mcp__claude_ai_Google_Drive__read_file_content"
+      "mcp__claude_ai_Google_Drive__read_file_content",
+      "mcp__claude_ai_Google_Drive__create_file"
     ]
   }
 }
