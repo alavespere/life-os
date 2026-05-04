@@ -15,7 +15,11 @@
       "mcp__claude_ai_Google_Drive__search_files",
       "mcp__claude_ai_Google_Drive__list_recent_files",
       "mcp__claude_ai_Google_Drive__read_file_content",
-      "mcp__claude_ai_Google_Drive__create_file"
+      "mcp__claude_ai_Google_Drive__create_file",
+      "WebFetch(domain:www.carriermanagement.com)",
+      "WebFetch(domain:www.construction.com)",
+      "WebFetch(domain:www.procore.com)",
+      "WebFetch(domain:www.lexology.com)"
     ]
   }
 }

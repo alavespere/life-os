@@ -3,6 +3,33 @@
 
 ---
 
+## Routing Run — 2026-05-04
+
+### Oracle Pipeline Files
+
+| File | Status | Notes |
+|------|--------|-------|
+| `oracle-test.md` | ⚠️ Failed — not routed | Subject: "Welcome to Procore!" — Procore marketing email, no article content extracted by Make.com |
+| `2026-04-30-19ddb26d0d9ef73d-Oracle.md` | ⚠️ Failed — not routed | Subject: "Feedly onboarding tutorial" — not construction intelligence |
+| `2026-05-01-19de32905f300e8d-Oracle.md` | ⚠️ Failed — not routed | Subject: "Lexology - practical know-how" — article body not captured by Make.com |
+
+**Pipeline Issue:** Make.com is passing email subjects but not article body content. Affects all 3 files. Needs Make.com workflow fix.
+
+### README URLs — Research Notes Created
+
+| Source | File Created | Destination |
+|--------|-------------|-------------|
+| Carrier Management — Majesco 2026 AI Report | `2026-05-04 — Insurance Analytics AI Momentum — Majesco 2026.md` | `Research_Base/Project_Oracle_Feeds/` ✅ |
+| Construction.com — Starts Rebound 13% | `2026-04-17 — Construction Starts Rebound 13pct March.md` | `Research_Base/Project_Oracle_Feeds/` ✅ |
+| Construction.com — Dodge Momentum Index | `2026-04-07 — Dodge Momentum Index Grows 2pct March.md` | `Research_Base/Project_Oracle_Feeds/` ✅ |
+| Construction.com — Stagflation & Surety | `2025-10-17 — Stagflation Construction Surety Markets.md` | `Research_Base/Project_Oracle_Feeds/` ✅ |
+| Procore — STCKY Fatal Hazards | `2026-05-04 — Rethinking Jobsite Safety STCKY Fatal Hazards.md` | `Research_Base/Project_Oracle_Feeds/` ✅ |
+| Procore — Bottom-Up Safety Culture | `2026-05-04 — Bottom-Up Safety Culture Knutson Construction.md` | `Research_Base/Project_Oracle_Feeds/` ✅ |
+| Procore — AI in Construction Safety | `2026-05-04 — AI Transforming Construction Safety Procore.md` | `Research_Base/Project_Oracle_Feeds/` ✅ |
+| Lexology (3 articles) | — | ⚠️ 403 Blocked — requires Lexology login. Manual access needed. |
+
+---
+
 ## Routing Run — 2026-04-29 — Project Performance Accelerator Initiative
 
 Source: `_inbox/extracted3/Project Performance Accelerator Initiative/`
