@@ -96,6 +96,13 @@ _Last entry: 2026-04-06_
 **Linked files:** [[Legal Tracker]]
 ---
 
+### 2026-05-05 — BD — John Hession Investor Outreach Status
+**Type:** Update
+**Context:** Reviewed full John Hession email thread and sent him a comprehensive update per his request.
+**Entry:** John is in Colorado until May 10-11 visiting family. Still actively working for BSIQ from the road — made the Leader Bank intro while traveling. Three VC conversations to date: (1) B Capital (Patrick Harmon) — expressed interest, can't lead, connecting to pre-seed funds; (2) Grid Capital (Jackie DiMonte) — paused in late April due to father's health, conversation was positive before that; (3) TipTop VC (Nick) — was evaluating with leads in mind, in follow-up mode. Consonant Ventures (via Keith at CK Team) — deck and pro formas sent April 30, very early. Leader Bank (Summer Hutchison, Vitaliy Schafer, Alex Guinta) — John intro'd May 4, Summer replied same day, call scheduled May 6. Joe Caruso (Bantam Group) — most active referral; had call April 24, Joe working on intros to Josh Kanner (Smartvid.io), Raghi Iyengar (Manufacton), Liberty Mutual Ventures; meetings scheduled later in May. Sent John a fresh standalone email (per his iPad formatting requirement) with: VC firm names, full Referral List status, and his current intro paragraph.
+**Linked files:** [[none]]
+---
+
 ### 2026-04-07 00:30 — Ops — Master Folder Routed to Vault
 **Type:** Decision
 **Context:** Processed Project Performance Accelerator Initiative master folder (129 files).
