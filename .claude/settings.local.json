@@ -19,7 +19,9 @@
       "WebFetch(domain:www.carriermanagement.com)",
       "WebFetch(domain:www.construction.com)",
       "WebFetch(domain:www.procore.com)",
-      "WebFetch(domain:www.lexology.com)"
+      "WebFetch(domain:www.lexology.com)",
+      "mcp__claude_ai_Gmail__search_threads",
+      "mcp__claude_ai_Gmail__get_thread"
     ]
   }
 }
