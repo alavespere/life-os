@@ -29,6 +29,8 @@ Stop.
 
 List each file and which coverage line it covers (GL, Auto, WC, Umbrella).
 
+For structural reference, check `Brokerage/Tools_and_Workbooks/` — particularly `Sample Claim Review Workbook.xlsx`, `PY Trend Report Creator v3.1f.xlsx`, and `Claims Workbook January 2023 unedited backup version.xlsx` — to align metric categories with standard workbook formats.
+
 ---
 
 ### Step 2 — Build Annual Metrics Table

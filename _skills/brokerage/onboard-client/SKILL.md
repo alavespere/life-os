@@ -97,11 +97,22 @@ Mark each field: `[EXTRACTED]` / `[INFERRED]` / `[MISSING]`
 
 ---
 
+### Step 2.5 — Benchmarking Context
+
+Before writing the overview, check `Brokerage/Past_Clients/` for any account in the same contractor class (GC, sub-specialty, A/E, owner-builder). Use matching past accounts to:
+- Calibrate whether stated revenue, payroll, and project sizes are reasonable
+- Identify coverage lines or limits that prior similar accounts carried
+- Surface submission strategies that worked for comparable risk profiles
+
+Note which past account was used for comparison in the overview.md.
+
+---
+
 ### Step 3 — Create Client Folder
 
 Create `Brokerage/Active_Submissions/[client-name]/` with:
 
-**overview.md** — copy `Brokerage/ACORD_Templates/ACORD-Overview-Template.md` and populate with Step 2 data.
+**overview.md** — copy `Brokerage/ACORD_Templates/ACORD-Overview-Template.md` and populate with Step 2 data. For coverage line applications, reference carrier-specific forms in `Brokerage/Submission_Forms/` (Vantage SDI, TokioMarine cyber, JLG builders, Chubb WC).
 
 **conversation-log.md:**
 ```markdown

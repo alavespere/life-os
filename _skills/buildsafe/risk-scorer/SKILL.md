@@ -27,6 +27,8 @@ Read the provided project data. This may be:
 
 List all data points available and note gaps with `[MISSING]`.
 
+Before scoring Dimensions 4–5, scan `Brokerage/Knowledge_Base/Market_Intel/` for any relevant market updates (property, casualty, or specialty). Use the most recent available file for that coverage line.
+
 ---
 
 ### Step 2 — Score Each Dimension (0–10 scale, 10 = highest risk)
@@ -140,6 +142,7 @@ DATA GAPS (scored conservatively)
 
 RECOMMENDED MARKET APPROACH
 [Standard admitted / Specialty admitted / E&S / Program]
+Reference `Brokerage/Carrier_Guidelines/` for specific programs, carriers, or lineslips that match this project type and risk level.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
