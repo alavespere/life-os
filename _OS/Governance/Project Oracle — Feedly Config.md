@@ -1,45 +1,26 @@
 # Project Oracle — Feedly Intelligence Configuration
-_3-folder RSS matrix for construction risk intelligence gathering (Feedly free tier)_
-_~40 RSS sources across 3 folders. Category 7 (Regional) handled via Gmail/Google Alerts._
-
----
-
-## Free Tier Constraints
-
-Feedly free allows **3 folders max**. The original 9-category design is consolidated below into 3 folders that map to your existing setup. Do not create new folders — add feeds to existing ones.
-
-| Folder | Categories Covered | Sources |
-|--------|--------------------|---------|
-| `Oracle — Curated` | Save-to-trigger only — no feeds | 0 |
-| `Labor` | Categories 3, 4, 5, 6 — Risk Signals | ~18 feeds |
-| `Phase Intelligence` | Categories 1, 2, 8, 9 — Industry Reading | ~22 feeds |
-| *(Gmail pipeline)* | Category 7 — Regional (Google Alerts) | n/a |
+_9-category RSS matrix for automated construction risk intelligence gathering_
+_Configure in Feedly Enterprise. Target: 200+ sources across all 9 categories._
 
 ---
 
 ## Setup Instructions
 
-1. **`Oracle — Curated` board** — keep empty of feeds. Use it only as a manual save destination. Any article you read in Feedly and save here triggers the Make.com automation.
-2. **`Labor` folder** — add all feeds from Categories 3, 4, 5, and 6 below
-3. **`Phase Intelligence` folder** — add all feeds from Categories 1, 2, 8, and 9 below
-4. **Mute Filters** (Feedly → Preferences → Mute Filters) — add: `press release`, `product launch`, `sponsored`, `webinar`
-5. Make.com → Perplexity synthesis → GitHub → Obsidian (see `Project Oracle — Make.com Spec.md`)
-
----
-
-## FOLDER: Phase Intelligence
-_Add Categories 1, 2, 8, and 9 to this folder._
+1. Create a Feedly Board called **"Oracle — Curated"** — this is your high-signal save target
+2. Set up each category below as a Feedly Collection
+3. Any article you save to "Oracle — Curated" board triggers the Make.com automation
+4. Make.com → Perplexity synthesis → GitHub → Obsidian (see `Project Oracle — Make.com Spec.md`)
 
 ---
 
 ## Category 1: Construction Industry Core
 
-**Add to folder:** `Phase Intelligence`
+**Collection Name:** `Oracle — Construction Core`
 
 | Source | RSS Feed |
 |--------|---------|
 | Engineering News-Record (ENR) | `https://www.enr.com/rss/news` |
-| Construction Dive | `https://www.constructiondive.com/feeds/news/` |
+| Construction Dive | `://www.constructiondive.com/feeds/news/` |
 | Building Design+Construction | `https://www.bdcnetwork.com/rss/articles.xml` |
 | Constructor Magazine (AGC) | `https://www.constructormagazine.com/feed/` |
 | Construction Executive | `https://constructionexec.com/feed` |
@@ -53,7 +34,7 @@ _Add Categories 1, 2, 8, and 9 to this folder._
 
 ## Category 2: Phase-Based Intelligence
 
-**Add to folder:** `Phase Intelligence` _(already configured — verify feeds are present)_
+**Collection Name:** `Oracle — Phase Intelligence`
 
 **Pre-Construction & Design**
 | Source | RSS Feed |
@@ -72,17 +53,12 @@ _Add Categories 1, 2, 8, and 9 to this folder._
 |--------|---------|
 | FacilitiesNet | `https://www.facilitiesnet.com/rss/` |
 | BOMA International | `https://www.boma.org/rss` |
-
----
-
-## FOLDER: Labor
-_Add Categories 3, 4, 5, and 6 to this folder._
-
+https
 ---
 
 ## Category 3: Labor & Workforce
 
-**Add to folder:** `Labor` _(already configured — verify feeds are present)_
+**Collection Name:** `Oracle — Labor`
 
 | Source | RSS Feed |
 |--------|---------|
@@ -95,7 +71,7 @@ _Add Categories 3, 4, 5, and 6 to this folder._
 
 ## Category 4: Supply Chain & Materials
 
-**Add to folder:** `Labor`
+**Collection Name:** `Oracle — Supply Chain`
 
 | Source | RSS Feed |
 |--------|---------|
@@ -108,7 +84,7 @@ _Add Categories 3, 4, 5, and 6 to this folder._
 
 ## Category 5: Legal, Regulatory & Compliance
 
-**Add to folder:** `Labor`
+**Collection Name:** `Oracle — Legal & Regulatory`
 
 | Source | RSS Feed |
 |--------|---------|
@@ -121,7 +97,7 @@ _Add Categories 3, 4, 5, and 6 to this folder._
 
 ## Category 6: Insurance & Risk Transfer
 
-**Add to folder:** `Labor`
+**Collection Name:** `Oracle — Insurance Markets`
 
 | Source | RSS Feed |
 |--------|---------|
@@ -134,18 +110,11 @@ _Add Categories 3, 4, 5, and 6 to this folder._
 
 ---
 
-## FOLDER: None — Gmail Pipeline Only
-_Category 7 does not use a Feedly folder. Configure Google Alerts to email delivery only._
-
----
-
 ## Category 7: Regional Market Indicators
 
-**Handled via:** Gmail pipeline → Make.com (see `Project Oracle — Make.com Spec.md` → Scenario B)
+**Collection Name:** `Oracle — Regional Matrix`
 
-Google Alerts no longer offers RSS on most accounts. Set each alert to email delivery → `aaron@buildsafeiq.com`. Gmail filter (`from:googlealerts-noreply@google.com` → label `Oracle — Google Alerts`) feeds the Make.com automation.
-
-Do NOT add these to Feedly.
+Set up Google Alerts for each metro and convert to RSS. Go to `google.com/alerts`, create the alert, then click the RSS icon.
 
 | Metro | Alert Query |
 |-------|------------|
@@ -159,18 +128,13 @@ Do NOT add these to Feedly.
 | Seattle | `"Seattle" AND ("commercial real estate" OR "construction starts" OR "tech development")` |
 | Denver | `"Denver" AND ("commercial real estate" OR "construction starts" OR "population growth")` |
 | Phoenix | `"Phoenix" AND ("commercial real estate" OR "construction starts" OR "water risk")` |
-| Detroit | `"Detroit" AND ("commercial real estate" OR "construction starts" OR "automotive development")` |
-| Minneapolis | `"Minneapolis" AND ("commercial real estate" OR "construction starts" OR "industrial development")` |
-
----
-
-## FOLDER: Phase Intelligence (continued)
+| New Hampshire / New England | `"New Hampshire" AND ("construction" OR "commercial real estate" OR "development")` |
 
 ---
 
 ## Category 8: Macro-Economic & Global Risk
 
-**Add to folder:** `Phase Intelligence`
+**Collection Name:** `Oracle — Macro`
 
 | Source | RSS Feed |
 |--------|---------|
@@ -188,7 +152,7 @@ Do NOT add these to Feedly.
 
 ## Category 9: Academic & Research
 
-**Add to folder:** `Phase Intelligence`
+**Collection Name:** `Oracle — Research`
 
 | Source | RSS Feed |
 |--------|---------|

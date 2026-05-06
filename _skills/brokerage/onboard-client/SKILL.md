@@ -114,6 +114,8 @@ Create `Brokerage/Active_Submissions/[client-name]/` with:
 
 **overview.md** — copy `Brokerage/ACORD_Templates/ACORD-Overview-Template.md` and populate with Step 2 data. For coverage line applications, reference carrier-specific forms in `Brokerage/Submission_Forms/` (Vantage SDI, TokioMarine cyber, JLG builders, Chubb WC).
 
+**Renewal Proposal:** The master renewal proposal template is at `Brokerage/Tools_and_Workbooks/Renewal_Proposal_Template.xlsm`. Architecture and Input schema documented at `Brokerage/Tools_and_Workbooks/Renewal_Proposal_Architecture.md`. All client data enters through the Input sheet only — every summary and coverage detail sheet auto-populates. Copy the template to the client folder before populating.
+
 **conversation-log.md:**
 ```markdown
 # Conversation Log — [Client Name]
