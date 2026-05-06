@@ -10,7 +10,7 @@ Feedly free allows **3 folders max**. The original 9-category design is consolid
 
 | Folder | Categories Covered | Sources |
 |--------|--------------------|---------|
-| `Curated` | Save-to-trigger only — no feeds | 0 |
+| `Oracle — Curated` | Save-to-trigger only — no feeds | 0 |
 | `Labor` | Categories 3, 4, 5, 6 — Risk Signals | ~18 feeds |
 | `Phase Intelligence` | Categories 1, 2, 8, 9 — Industry Reading | ~22 feeds |
 | *(Gmail pipeline)* | Category 7 — Regional (Google Alerts) | n/a |
@@ -19,7 +19,7 @@ Feedly free allows **3 folders max**. The original 9-category design is consolid
 
 ## Setup Instructions
 
-1. **`Curated` folder** — keep empty of feeds. Use it only as a manual save destination. Any article you read in Feedly and save here triggers the Make.com automation.
+1. **`Oracle — Curated` board** — keep empty of feeds. Use it only as a manual save destination. Any article you read in Feedly and save here triggers the Make.com automation.
 2. **`Labor` folder** — add all feeds from Categories 3, 4, 5, and 6 below
 3. **`Phase Intelligence` folder** — add all feeds from Categories 1, 2, 8, and 9 below
 4. **Mute Filters** (Feedly → Preferences → Mute Filters) — add: `press release`, `product launch`, `sponsored`, `webinar`
