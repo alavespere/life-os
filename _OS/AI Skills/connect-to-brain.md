@@ -82,7 +82,11 @@ ACTION ITEMS FOR DESKTOP:
 ---
 
 I will email this note to aaron@buildsafeiq.com with subject: [Mobile Drop] - [Topic]
-My desktop system will pick it up automatically.
+My desktop system will pick it up automatically via Gmail.
+
+ALTERNATIVELY: If saving to Google Drive, title the file exactly:
+[Mobile Drop] - [Topic] - [YYYY-MM-DD]
+Save it to My Drive root. Desktop Claude searches for that title pattern.
 
 Now — what do you need from me to get started?
 ```
