@@ -96,6 +96,13 @@ _Last entry: 2026-04-06_
 **Linked files:** [[Legal Tracker]]
 ---
 
+### 2026-05-07 — System — Mobile Inbox + Connect to Brain Protocol Established
+**Type:** Decision
+**Context:** Aaron works across desktop (Claude Code) and mobile (claude.ai) — mobile sessions were not persisting to the vault, causing lost work on investor lists, book processing, and other tasks.
+**Entry:** Mobile workflow system established. Three components: (1) `_OS/AI Skills/connect-to-brain.md` — a full context prompt Aaron pastes at the start of any mobile Claude session, loading all business context so mobile Claude can process intelligently. (2) `_Mobile Inbox` folder created in Google Drive (ID: 1Xtv9uG4kXylgnawFxwIlfC--rr5VjZ-R) — landing zone for mobile session outputs. (3) Gmail bridge — at end of any mobile session, Claude generates a structured Mobile Drop Note and Aaron emails it to aaron@buildsafeiq.com with subject `[Mobile Drop] - [Topic]`. Desktop Claude picks these up via Gmail MCP and routes them into the vault. Protocol: search Gmail for `[Mobile Drop]` subject at start of any session where mobile processing is expected.
+**Linked files:** [[connect-to-brain.md]], [[_Mobile Inbox (Drive)]]
+---
+
 ### 2026-05-05 — BD — John Hession Investor Outreach Status
 **Type:** Update
 **Context:** Reviewed full John Hession email thread and sent him a comprehensive update per his request.

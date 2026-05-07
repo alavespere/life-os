@@ -34,4 +34,13 @@
       "Bash(python -c \"import json,sys; data=json.load\\(sys.stdin\\); [print\\(f['name'], '|', f.get\\('modifiedTime',''\\), '|', f.get\\('id',''\\)\\) for f in data['files']]\")",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\\" -Recurse -File -ErrorAction SilentlyContinue | Where-Object {$_.Extension -in @\\('.db', '.sqlite', '.csv', '.json'\\)} | ForEach-Object { $_.FullName })",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Knowledge_Base\\\\\" -Directory | ForEach-Object { $_.Name })",
-      "Powe
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\BuildSafe IQ\\\\\" -Recurse -Directory -ErrorAction SilentlyContinue | Where-Object {$_.Name -match \"\\(Research|Knowledge\\)\" } | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\BuildSafe IQ\\\\Knowledge Base\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\BuildSafe IQ\\\\Marketing & Content\\\\Research_Base\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Knowledge_Base\\\\\" -Recurse -File | Where-Object {$_.Extension -in @\\('.csv', '.json', '.db', '.xlsx'\\)} | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\\" -Directory | ForEach-Object { $_.Name })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Tools_and_Workbooks\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\" -Recurse -File -ErrorAction SilentlyContinue | Where-Object {$_.Extension -in @\\('.db', '.sqlite', '.json'\\)} | ForEach-Object { $_.FullName })"
+    ]
+  }
+}
