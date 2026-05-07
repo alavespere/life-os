@@ -41,7 +41,8 @@
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\\" -Directory | ForEach-Object { $_.Name })",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Tools_and_Workbooks\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\" -Recurse -File -ErrorAction SilentlyContinue | Where-Object {$_.Extension -in @\\('.db', '.sqlite', '.json'\\)} | ForEach-Object { $_.FullName })",
-      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Submission_Forms\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })"
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Submission_Forms\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\BuildSafe IQ\\\\State\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })"
     ]
   }
 }

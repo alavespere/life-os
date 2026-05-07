@@ -81,12 +81,10 @@ ACTION ITEMS FOR DESKTOP:
 [list any items that need to be routed, saved, or followed up on by my desktop Claude session]
 ---
 
-I will email this note to aaron@buildsafeiq.com with subject: [Mobile Drop] - [Topic]
-My desktop system will pick it up automatically via Gmail.
-
-ALTERNATIVELY: If saving to Google Drive, title the file exactly:
+Save it as a Google Doc in my Google Drive titled exactly:
 [Mobile Drop] - [Topic] - [YYYY-MM-DD]
-Save it to My Drive root. Desktop Claude searches for that title pattern.
+
+My desktop Claude will find it by that title and process it into my vault automatically.
 
 Now — what do you need from me to get started?
 ```
