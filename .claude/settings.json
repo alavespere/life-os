@@ -4,5 +4,11 @@
     "./_OS/_brain/soul.md",
     "./_OS/_brain/user.md",
     "./_OS/_brain/memory.md"
-  ]
+  ],
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
 }

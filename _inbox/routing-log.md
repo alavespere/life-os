@@ -85,3 +85,35 @@ Source: Files listed in `_inbox/README.md`
 - Subcontractor prequal docs are research-grade references (CFMA benchmarks, BLS safety data, NCCI WC codes, surety underwriting standards) — companion docs to existing `Construction Risk Data Sources.md` in Knowledge Base
 - Group Captive PPTX is Captives 101 educational content — companion to existing `1. Captive Insurance vs. Traditional Carriers.docx` in Knowledge Base
 - README.md file paths can be cleared once confirmed
+
+---
+
+## Routing Run — 2026-05-08
+
+### Oracle Pipeline Files (2026-05-04 batch)
+
+| File | Status | Notes |
+|------|--------|-------|
+| `2026-05-04-19dd9ffe8b2e738f-Oracle.md` | ⚠️ Failed — not routed | Google Alert — Make.com passed prompt template, no article content |
+| `2026-05-04-19dd4d4a099550bc-Oracle.md` | ⚠️ Failed — not routed | Google Alert — Make.com passed prompt template, no article content |
+| `2026-05-04-19ddf25f960a5ffa-Oracle.md` | ⚠️ Failed — not routed | Google Alert — Make.com passed prompt template, no article content |
+| `2026-05-04-19de44bc98ad9057-Oracle.md` | ⚠️ Failed — not routed | Google Alert — Make.com passed prompt template, no article content |
+| `2026-05-04-19df3bef92b6f22a-Oracle.md` | ⚠️ Failed — not routed | Google Alert — Make.com passed prompt template, no article content |
+
+**Pipeline Issue:** Persistent — Make.com Google Alerts scenario is not passing article body to the Claude synthesis step. This is the same bug logged 2026-05-04. 8 total Oracle files have now failed with this error. Make.com workflow needs a fix to extract and pass the full article body before calling Claude.
+
+### README PDFs — Files Not Present in Inbox
+
+| File | Status | Notes |
+|------|--------|-------|
+| `Fourth Circuit Extends Coverage to Contractor - Lexology.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
+| `Sureties Step in as Southland Holdings Reports Big Loss _ Engineering News-Record.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
+| `Flatiron Said Disputed Concrete Mix Cost Millions on Large Caltrans Project _ Engineering News-Record.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
+| `Construction disputes under the microscope_ How forensic engineering uncovers why failures happen - Lexology.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
+| `Report_ Billions of Dollars in Data Center Construction Risk Is Uninsured _ Engineering News-Record.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder (listed twice) |
+| `High Court Rules War Zones Do Not Shield Contractors from Liability for Employee Misconduct _ Engineering News-Record.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
+| `Why your data center needs 135% cooling capacity - The Data Center Engineer.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
+
+**Action required:** Drop the PDFs into `_inbox/` and re-run, OR tell Claude to fetch and summarize them by title.
+
+---
