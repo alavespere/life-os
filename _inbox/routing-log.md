@@ -117,3 +117,36 @@ Source: Files listed in `_inbox/README.md`
 **Note:** PDFs sourced from `C:\Users\aaron.lavespere\Downloads\`. All 7 Drive files confirmed at parentId `1rWie_caCQET80favVX3hmvFv3FiwcRnx` (uploaded 2026-05-08 ~13:13–13:15).
 
 ---
+
+## Routing Run — 2026-05-08 (Session 2) — Gmail Direct Workflow
+
+**New workflow:** Make.com replaced. Aaron labels Gmail emails → Claude reads via Gmail MCP → synthesizes → routes to vault.
+
+### Google Alert Emails Processed (Oracle — Google Alerts label)
+
+7 threads read. Synthesized into 3 consolidated Oracle Feed notes (4 threads had no synthesis-worthy content — see skipped items below).
+
+| Thread | Date | Note Created | Vault Path | Drive | Gmail Label |
+|--------|------|-------------|------------|-------|-------------|
+| `19e034b0ecc83ea1` | 2026-05-07 | DFW Multi-Sector Construction Signals | `Research_Base/Project_Oracle_Feeds/2026-05-07 — DFW Multi-Sector Construction Signals.md` | ⚠️ Drive write permission error | ⚠️ Insufficient Gmail write scope |
+| `19dfe369f86912ab` | 2026-05-06 | (consolidated into DFW note above) | — | — | ⚠️ Insufficient Gmail write scope |
+| `19df8ec52bb7ef03` | 2026-05-05 | LA Capital Infrastructure Program | `Research_Base/Project_Oracle_Feeds/2026-05-05 — Los Angeles First Capital Infrastructure Program Launch.md` | ⚠️ Drive write permission error | ⚠️ Insufficient Gmail write scope |
+| `19df3bef92b6f22a` | 2026-05-04 | (consolidated into DFW note above) | — | — | ⚠️ Insufficient Gmail write scope |
+| `19de44bc98ad9057` | 2026-05-01 | NYC Construction Starts / Debt Pipeline | `Research_Base/Project_Oracle_Feeds/2026-05-01 — NYC Construction Starts Rise Debt Pipeline Surges.md` | ⚠️ Drive write permission error | ⚠️ Insufficient Gmail write scope |
+| `19ddf25f960a5ffa` | 2026-04-30 | (consolidated into DFW note above) | — | — | ⚠️ Insufficient Gmail write scope |
+| `19dd4d4a099550bc` | 2026-04-28 | (consolidated into DFW + NYC notes above) | — | — | ⚠️ Insufficient Gmail write scope |
+
+**Skipped (no intelligence value):** Seattle ACRE Q1 snippet (no content), Minneapolis CRE Hall of Fame, Chicago press release, Detroit DEGC office relocation, Miami CREW panel recap.
+
+**Notes created locally (vault):** ✅ All 3 written to `Research_Base/Project_Oracle_Feeds/`
+**Drive push:** ⚠️ Failed — "User cannot add children to the specified folder" — same error as prior session. Folder `1rWie_caCQET80favVX3hmvFv3FiwcRnx` may require Aaron to re-share or reauthorize Drive MCP.
+**Gmail labeling:** ⚠️ Failed — Gmail MCP has read scope only, not modify scope. Aaron needs to reauthorize Gmail MCP with `gmail.modify` scope to enable labeling.
+
+### Action Items for Aaron
+| Item | Action |
+|------|--------|
+| Gmail MCP scope | Reauthorize with `gmail.modify` scope to allow Claude to apply `Oracle - Processed` labels |
+| Drive MCP permissions | Re-share Oracle Feeds folder or reauthorize Drive MCP with write permissions |
+| Make.com | Disable/cancel Google Alerts Oracle scenario (replaced by this workflow) |
+
+---
