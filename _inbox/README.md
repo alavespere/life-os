@@ -21,3 +21,4 @@ _Drop any file here. Tell Claude "process inbox" and it handles the rest._
 Fourth Circuit Extends Coverage to Contractor - Lexology.pdf
 Sureties Step in as Southland Holdings Reports Big Loss _ Engineering News-Record.pdf
 Flatiron Said Disputed Concrete Mix Cost Millions on Large Caltrans Project _ Engineering News-Record.pdf
+Construction disputes under the microscope_ How forensic engineering uncovers why failures happen - Lexology.pdf
