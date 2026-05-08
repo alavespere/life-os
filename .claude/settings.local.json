@@ -48,7 +48,8 @@
       "PowerShell(npm *)",
       "Skill(update-config)",
       "Bash(Select-Object FullName, Length, LastWriteTime)",
-      "PowerShell(New-Item *)"
+      "PowerShell(New-Item *)",
+      "mcp__claude_ai_Gmail__list_labels"
     ]
   }
 }

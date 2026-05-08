@@ -31,6 +31,7 @@ _Last updated: 2026-04-27_
 | `risk-scorer` | `/score-risk [project]` | 5-dimension project risk score + flag list |
 | `document-router` | `/route-inbox` | Auto-route _inbox/ files to correct vault locations |
 | `weekly-brief` | `/weekly-brief` | Newsletter draft from Oracle feeds → Pipeline/ |
+| `email` | `/email [type] [name]` | Draft emails in Aaron's voice — 5 types: investor-cold, investor-follow, investor-bump, partner-intro, client-cold |
 
 ---
 
@@ -38,7 +39,7 @@ _Last updated: 2026-04-27_
 
 | Tier | Where It Runs | Skills |
 |------|-------------|--------|
-| **Tier 1 — Universal** | claude-code + claude.ai | `coi-analyzer`, `risk-scorer`, `weekly-brief` |
+| **Tier 1 — Universal** | claude-code + claude.ai | `coi-analyzer`, `risk-scorer`, `weekly-brief`, `email` |
 | **Tier 2 — Claude Code only** | Requires VS Code + vault | `review`, `today`, `weekly-review`, `onboard-client`, `analyze-loss-runs`, `document-router` |
 | **Tier 3 — Claude.ai + MCP** | Requires Drive/Gmail connectors | *(planned: email-follow-up-tracker, drive-report-pusher)* |
 

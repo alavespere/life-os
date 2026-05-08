@@ -63,6 +63,7 @@ Skills live in `_skills/`. Read the relevant SKILL.md before executing any comma
 | `/score-risk [project]` | `_skills/buildsafe/risk-scorer/` | 5-dimension project risk score |
 | `/route-inbox` | `_skills/buildsafe/document-router/` | Auto-route _inbox/ files to correct locations |
 | `/weekly-brief` | `_skills/buildsafe/weekly-brief/` | Newsletter draft from Oracle feeds |
+| `/email [type] [name]` | `_skills/buildsafe/email/` | Draft email in Aaron's voice — investor cold/follow/bump, partner, or client |
 | `/log [type]: [text]` | _(inline)_ | Manually append entry to memory.md |
 
 ---
