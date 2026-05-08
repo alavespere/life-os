@@ -31,7 +31,7 @@ _Last updated: 2026-04-27_
 | `risk-scorer` | `/score-risk [project]` | 5-dimension project risk score + flag list |
 | `document-router` | `/route-inbox` | Auto-route _inbox/ files to correct vault locations |
 | `weekly-brief` | `/weekly-brief` | Newsletter draft from Oracle feeds → Pipeline/ |
-| `email` | `/email [type] [name]` | Draft emails in Aaron's voice — 5 types: investor-cold, investor-follow, investor-bump, partner-intro, client-cold |
+| `email` | `/email [type or context]` | Draft any email in Aaron's voice — paste a thread, describe the situation, or name the recipient. Handles cold outreach, replies, follow-ups, meeting recaps, intros, declines, advisor updates, re-engages. |
 
 ---
 
