@@ -44,7 +44,8 @@
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Submission_Forms\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\BuildSafe IQ\\\\State\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Sales & CRM\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
-      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Active_Submissions\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })"
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Active_Submissions\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
+      "PowerShell(npm *)"
     ]
   }
 }

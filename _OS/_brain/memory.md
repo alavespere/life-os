@@ -96,6 +96,20 @@ _Last entry: 2026-04-06_
 **Linked files:** [[Legal Tracker]]
 ---
 
+### 2026-05-08 — BD — Hubble Pre-Seed Investor List Processed
+**Type:** Update
+**Context:** Mobile Drop processed from 2026-05-07 session — 36 pre-seed investors sourced from Hubble platform.
+**Entry:** 36 investors logged. Check sizes $25K–$5M. None contacted yet. 3 flagged as NEW to platform: Alexi Sevastopoulos (Santa Cruz Ventures), Brent Fulfer (TB Ventures), Tobias Bauer (TB Ventures). Next steps: run Investor Intelligence batch research tool on all 36 → tier by relevance → draft personalized cold outreach starting with the 3 new ones → track in Capital_Raising_Contacts.xlsx. Fold into 5 daily outreach touches. Saved to: `BuildSafe IQ/Operations/Daily Notes/2026-05-08 — Hubble Pre-Seed Investor List.md`
+**Linked files:** [[2026-05-08 — Hubble Pre-Seed Investor List]]
+---
+
+### 2026-05-08 — Market Intel — Burns & Wilcox P&C Q2 2026
+**Type:** Insight
+**Context:** Mobile Drop processed — Burns & Wilcox P&C Report Q2 2026 Outlook reviewed on mobile.
+**Entry:** Key signals: (1) B&W explicitly validating AI/API platforms for binding authority — BSIQ pitch aligns directly. (2) Contractor GL softening — submission quality is the differentiator. (3) SAM coverage demand spiking for GCs at schools/healthcare/municipalities — new line to pursue via B&W. (4) CPL soft with new entrants — good placement opportunity. (5) Social inflation dominant theme across all lines — plays into BSIQ risk scoring. Key contact: Chris Siegel, VP/MD Orlando — construction, property, environmental specialist. Saved to: `BuildSafe IQ/Marketing & Content/Research_Base/2026-05-07 — Burns & Wilcox P&C Q2 2026 Intel.md`
+**Linked files:** [[2026-05-07 — Burns & Wilcox P&C Q2 2026 Intel]]
+---
+
 ### 2026-05-07 — System — Mobile Inbox + Connect to Brain Protocol Established
 **Type:** Decision
 **Context:** Aaron works across desktop (Claude Code) and mobile (claude.ai) — mobile sessions were not persisting to the vault, causing lost work on investor lists, book processing, and other tasks.
