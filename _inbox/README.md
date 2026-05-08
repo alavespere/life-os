@@ -22,3 +22,7 @@ Fourth Circuit Extends Coverage to Contractor - Lexology.pdf
 Sureties Step in as Southland Holdings Reports Big Loss _ Engineering News-Record.pdf
 Flatiron Said Disputed Concrete Mix Cost Millions on Large Caltrans Project _ Engineering News-Record.pdf
 Construction disputes under the microscope_ How forensic engineering uncovers why failures happen - Lexology.pdf
+Report_ Billions of Dollars in Data Center Construction Risk Is Uninsured _ Engineering News-Record.pdf
+Report_ Billions of Dollars in Data Center Construction Risk Is Uninsured _ Engineering News-Record.pdf
+High Court Rules War Zones Do Not Shield Contractors from Liability for Employee Misconduct _ Engineering News-Record.pdf
+Why your data center needs 135% cooling capacity - The Data Center Engineer.pdf
