@@ -102,18 +102,18 @@ Source: Files listed in `_inbox/README.md`
 
 **Pipeline Issue:** Persistent — Make.com Google Alerts scenario is not passing article body to the Claude synthesis step. This is the same bug logged 2026-05-04. 8 total Oracle files have now failed with this error. Make.com workflow needs a fix to extract and pass the full article body before calling Claude.
 
-### README PDFs — Files Not Present in Inbox
+### README PDFs — Sourced from Downloads and Routed
 
-| File | Status | Notes |
-|------|--------|-------|
-| `Fourth Circuit Extends Coverage to Contractor - Lexology.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
-| `Sureties Step in as Southland Holdings Reports Big Loss _ Engineering News-Record.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
-| `Flatiron Said Disputed Concrete Mix Cost Millions on Large Caltrans Project _ Engineering News-Record.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
-| `Construction disputes under the microscope_ How forensic engineering uncovers why failures happen - Lexology.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
-| `Report_ Billions of Dollars in Data Center Construction Risk Is Uninsured _ Engineering News-Record.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder (listed twice) |
-| `High Court Rules War Zones Do Not Shield Contractors from Liability for Employee Misconduct _ Engineering News-Record.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
-| `Why your data center needs 135% cooling capacity - The Data Center Engineer.pdf` | ⚠️ File not found | Listed in README but not in _inbox/ folder |
+| File | Classified As | Routed To | Drive | Status |
+|------|--------------|-----------|-------|--------|
+| `Fourth Circuit Extends Coverage to Contractor - Lexology.pdf` | Research intel — additional insured coverage law | `Research_Base/Project_Oracle_Feeds/2026-05-05 — Fourth Circuit...md` | ✅ Pushed | ✅ Routed |
+| `Sureties Step in as Southland Holdings Reports Big Loss _ Engineering News-Record.pdf` | Research intel — surety/contractor financial health | `Research_Base/Project_Oracle_Feeds/2026-04-27 — Sureties Step In...md` | ✅ Pushed | ✅ Routed |
+| `Flatiron Said Disputed Concrete Mix Cost Millions on Large Caltrans Project _ Engineering News-Record.pdf` | Research intel — material quality/supply chain risk | `Research_Base/Project_Oracle_Feeds/2026-05-06 — Flatiron Disputed...md` | ✅ Pushed | ✅ Routed |
+| `Construction disputes under the microscope_ How forensic engineering uncovers why failures happen - Lexology.pdf` | Research intel — forensic engineering/claims | `Research_Base/Project_Oracle_Feeds/2026-05-07 — Construction Disputes...md` | ✅ Pushed | ✅ Routed |
+| `Report_ Billions of Dollars in Data Center Construction Risk Is Uninsured _ Engineering News-Record.pdf` | Research intel — data center insurance market | `Research_Base/Project_Oracle_Feeds/2026-04-28 — Billions in Data Center...md` | ✅ Pushed | ✅ Routed |
+| `High Court Rules War Zones Do Not Shield Contractors from Liability for Employee Misconduct _ Engineering News-Record.pdf` | Research intel — Supreme Court contractor liability | `Research_Base/Project_Oracle_Feeds/2026-04-24 — High Court Rules...md` | ✅ Pushed | ✅ Routed |
+| `Why your data center needs 135% cooling capacity - The Data Center Engineer.pdf` | Research intel — data center MEP/construction risk | `Research_Base/Project_Oracle_Feeds/2026-03-27 — Why Data Centers...md` | ✅ Pushed | ✅ Routed |
 
-**Action required:** Drop the PDFs into `_inbox/` and re-run, OR tell Claude to fetch and summarize them by title.
+**Note:** PDFs sourced from `C:\Users\aaron.lavespere\Downloads\`. All 7 Drive files confirmed at parentId `1rWie_caCQET80favVX3hmvFv3FiwcRnx` (uploaded 2026-05-08 ~13:13–13:15).
 
 ---

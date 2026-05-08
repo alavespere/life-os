@@ -47,7 +47,8 @@
       "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\Brokerage\\\\Active_Submissions\\\\\" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName })",
       "PowerShell(npm *)",
       "Skill(update-config)",
-      "Bash(Select-Object FullName, Length, LastWriteTime)"
+      "Bash(Select-Object FullName, Length, LastWriteTime)",
+      "PowerShell(New-Item *)"
     ]
   }
 }
