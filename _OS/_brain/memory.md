@@ -103,6 +103,13 @@ _Last entry: 2026-04-06_
 **Linked files:** [[2026-05-08 — Hubble Pre-Seed Investor List]]
 ---
 
+### 2026-05-08 — Knowledge Base — Holland Construction Law Book Fully Processed
+**Type:** Decision
+**Context:** Aaron photographed all ~175 pages of "Construction Law & Risk Management Case Notes and Articles" (J. Kent Holland Jr., Arch Insurance Group) across 4 sessions May 6-7, 2026.
+**Entry:** Full 27-chapter book processed and saved to vault. Covers: Differing Site Conditions, Contractor Licensing, Disputes, Scope, Design-Build, Professional Liability, Environmental, Bidding, Changes, Pay When Paid/Pay If Paid, Consequential Damages, Joint Ventures, Construction Defects, Delay, Insurance (CGL coverage analysis, exclusions, 11 key cases), Limitation of Liability, Scheduling (Measured Mile, Constructive Acceleration, CPM pitfalls), Site Safety (7-factor test, OSHA/A/E, 9 key cases), Statute of Limitations, Statute of Repose, Waiver of Subrogation, Substantial Completion, Surety (Miller Act, SDI vs. bonds), Debarment, Termination, Warranties. Output includes: full chapter notes, 35+ key case citations, Risk Scoring Model inputs table (25 factors), CGL/E&O/Surety underwriting checklists, 15-item content pipeline. Saved to: `BuildSafe IQ/Marketing & Content/Research_Base/2026-05-08 — Construction Law & Risk Management — Holland — Full Notes.md`
+**Linked files:** [[2026-05-08 — Construction Law & Risk Management — Holland — Full Notes]]
+---
+
 ### 2026-05-08 — Market Intel — Burns & Wilcox P&C Q2 2026
 **Type:** Insight
 **Context:** Mobile Drop processed — Burns & Wilcox P&C Report Q2 2026 Outlook reviewed on mobile.
