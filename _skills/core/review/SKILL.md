@@ -107,6 +107,18 @@ Write `_OS/_brain/Agent_Logs/YYYY-MM-DD-HH.md` with this structure:
 
 ---
 
+### Step 6 — Sync Brain Files to Google Drive
+
+Copy the three brain files to `G:\My Drive\BuildSafe Brain\_brain\` so mobile sessions stay current:
+
+1. Read `_OS/_brain/memory.md` and write to `G:\My Drive\BuildSafe Brain\_brain\memory.md`
+2. Read `_OS/_brain/soul.md` and write to `G:\My Drive\BuildSafe Brain\_brain\soul.md`
+3. Read `_OS/_brain/user.md` and write to `G:\My Drive\BuildSafe Brain\_brain\user.md`
+
+Confirm with: `☁️ Brain files synced to Google Drive.`
+
+---
+
 ### Stop Conditions
 - Stop immediately if today's Daily Note does not exist — do not proceed
 - Never append to memory.md without explicit approval
@@ -114,4 +126,4 @@ Write `_OS/_brain/Agent_Logs/YYYY-MM-DD-HH.md` with this structure:
 - Stop and ask if an entry's category or type is ambiguous
 
 ### Checkpoint Output
-`✅ /review complete. [N] entries appended to memory.md. Digest written to Agent_Logs/[filename].`
+`✅ /review complete. [N] entries appended to memory.md. Digest written to Agent_Logs/[filename]. ☁️ Brain files synced to Drive.`
