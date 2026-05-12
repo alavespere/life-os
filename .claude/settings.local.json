@@ -53,7 +53,8 @@
       "PowerShell(Get-ChildItem \"C:\\\\Users\\\\aaron.lavespere\\\\Desktop\\\\Risk management content\\\\\" | Where-Object {$_.Name -ge \"PXL_20260507_003404180.jpg\"} | Sort-Object Name | Select-Object Name | Format-Table -AutoSize)",
       "mcp__claude_ai_Gmail__label_thread",
       "Read(//c/Users/aaron.lavespere/**)",
-      "PowerShell(Set-Content *)"
+      "PowerShell(Set-Content *)",
+      "PowerShell(cmd /c \"dir \"G:\\\\My Drive\\\\BuildSafe Brain\\\\\" 2>&1\")"
     ]
   }
 }
