@@ -55,7 +55,9 @@
       "Read(//c/Users/aaron.lavespere/**)",
       "PowerShell(Set-Content *)",
       "PowerShell(cmd /c \"dir \"G:\\\\My Drive\\\\BuildSafe Brain\\\\\" 2>&1\")",
-      "Bash(powershell *)"
+      "Bash(powershell *)",
+      "Bash(python3 *)",
+      "Bash(python *)"
     ]
   }
 }
