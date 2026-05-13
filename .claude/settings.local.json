@@ -54,7 +54,8 @@
       "mcp__claude_ai_Gmail__label_thread",
       "Read(//c/Users/aaron.lavespere/**)",
       "PowerShell(Set-Content *)",
-      "PowerShell(cmd /c \"dir \"G:\\\\My Drive\\\\BuildSafe Brain\\\\\" 2>&1\")"
+      "PowerShell(cmd /c \"dir \"G:\\\\My Drive\\\\BuildSafe Brain\\\\\" 2>&1\")",
+      "Bash(powershell *)"
     ]
   }
 }
