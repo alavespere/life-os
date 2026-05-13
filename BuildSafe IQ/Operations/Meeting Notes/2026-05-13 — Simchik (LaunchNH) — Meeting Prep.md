@@ -42,7 +42,7 @@ The angle here is **two-dimensional**: (1) Is he a potential investor/advisor? (
 - The COI verification problem and subcontractor risk are not abstract concepts for him. He's lived them.
 
 ### Frame BuildSafe IQ at his level
-- "We're building the intelligence layer that sits between the construction project and the insurance market — so that GCs, developers, and brokers can make better risk decisions with data instead of intuition."
+- "We're building the intelligence layer that sits between the construction project and the insurance market — so that GCs, developers, and insurance carriers can make better risk decisions with data instead of intuition."
 - Mention: AI-powered prequalification, risk scoring, and COI analysis. Not "software for contractors" — **risk intelligence for anyone with construction exposure.**
 
 ### LaunchNH fit
