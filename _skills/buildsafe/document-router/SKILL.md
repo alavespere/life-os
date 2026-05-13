@@ -31,12 +31,18 @@ Use `mcp__claude_ai_Gmail__search_threads` and `mcp__claude_ai_Gmail__get_thread
 #### 0A — Mobile Drops
 **Search query:** `subject:"Mobile Drop" from:aaron@buildsafeiq.com newer_than:7d`
 
+**Rule: ALWAYS save Mobile Drop content. Never skip, never just log. Every Mobile Drop gets written to the vault.**
+
 For each thread found:
 - Read the full content via `get_thread`
 - Parse the subject line format: `[Mobile Drop] - [Topic] - [YYYY-MM-DD]`
-- If it contains notes, insights, or tasks → append to today's Daily Note at `BuildSafe IQ/Operations/Daily Notes/YYYY-MM-DD.md` (create if doesn't exist)
-- If it contains a YouTube link or URL → route to `_OS/Capture/` with title and link
-- If it contains a client-related note → route to the relevant client folder in `Brokerage/Active_Submissions/`
+- **Always append the full body content to today's Daily Note** at `BuildSafe IQ/Operations/Daily Notes/YYYY-MM-DD.md` (create if doesn't exist), even if the body is brief
+- If the body is essentially empty (just a signature): write "📎 Mobile Drop received — body empty, attachment only. Attachment: [filename]. Save file to vault inbox to process." in the Daily Note
+- If it contains notes, insights, or tasks → also append to the relevant section of the Daily Note
+- If it contains a YouTube link or URL → also create a capture entry in `_OS/Capture/` with title and URL
+- If it contains a client-related note → also route to the relevant client folder in `Brokerage/Active_Submissions/`
+- If it contains an attachment → always log: "⚠️ Attachment: [filename] — save to `G:\My Drive\BuildSafe Brain\_inbox\` to trigger full extraction on next `/route-inbox` run"
+- If it contains intel or research → also extract to `Research_Base/Project_Oracle_Feeds/`
 - Apply label: `Oracle - Processed`
 
 #### 0B — Oracle / Google Alert Intelligence
