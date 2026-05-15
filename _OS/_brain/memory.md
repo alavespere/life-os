@@ -131,6 +131,27 @@ _Last entry: 2026-04-06_
 **Linked files:** [[none]]
 ---
 
+### 2026-05-14 — Strategy — Positioning Pivot: AI Platform → Tech-Enabled Service Provider
+**Type:** Decision
+**Context:** Josh Kanner (Oracle/Newmetrix) challenged the pitch deck and pushed for a fundamental reframe.
+**Entry:** Decided to reposition BuildSafe IQ from "AI platform" to "tech-enabled construction risk advisory service." AI is the engine, not the product. Service delivery (QBRs, certified risk professionals) moves from Addendum A to the core of the pitch. The trigger: Josh built Newmetrix (sold to Oracle 2022) — same space — and said the current framing sounds like a copied platform. The tradeoff: the service model is less sexy to SaaS investors but more defensible, stickier, and validated by General Catalyst's $13.8M seed in Zero RFI (same thesis, different buyer). New one-liner: "BuildSafe IQ is a tech-enabled construction risk advisory service — we use AI to score subcontractor and project risk across seven validated signals, then deliver the insight through certified risk professionals so GCs can act before the loss happens."
+**Linked files:** [[2026-05-14 — Josh Kanner — Pitch Deck Revision Notes]]
+---
+
+### 2026-05-14 — BD — Josh Kanner Relationship Status
+**Type:** Update
+**Context:** First meeting with Josh Kanner today, intro via Joe Caruso (Bantam Group).
+**Entry:** Josh Kanner is Senior Director of Product & Strategy at Oracle Construction & Engineering. Previously co-founded Vela Systems (sold to Autodesk 2012) and Newmetrix (AI risk intel, sold to Oracle 2022). One of the most credible domain experts Aaron could meet. He challenged the pitch on four fronts: TAM sourcing, boiling the ocean, platform vs. service positioning, and no AI/data science depth. Joe Caruso agreed with all of it. Josh agreed to continue the conversation after the pitch is refined. Follow-up email sent same day — acknowledged feedback, attached current deck + TAM report, asked for 20-minute reconnect once refined. Goal: make Josh an advisor, not push for investment. Advisor ask is reserved for the follow-up session, not email. Note: Oracle is listed as an M&A acquirer in the deck — Josh is aware of this context.
+**Linked files:** [[2026-05-14 — Josh Kanner — Pitch Deck Revision Notes]], [[Joe Caruso — Bantam Group]]
+---
+
+### 2026-05-14 — Market Intel — Competitive Landscape Updates
+**Type:** Insight
+**Context:** Josh Kanner and research surfaced three competitive developments that need to be addressed in the pitch deck.
+**Entry:** (1) Procore acquired Datagrid (January 2026) — workflow AI for submittal automation, RFI drafting, and data connectivity. NOT risk intelligence. Their buyer is the project manager. BSIQ's buyer is the risk manager, CFO, and insurance team. Different problem, different stakeholder. (2) Document Crunch — Josh called it a risk management platform. Correct reframe: Document Crunch analyzes contract language and flags risky clauses. BSIQ scores whether the contractor can actually perform. Contract document review vs. predictive risk intelligence. Trimble acquisition validates the market. (3) Zero RFI — $13.8M seed from General Catalyst (March 2026). AI-enabled owner's rep firm. Serves building owners and developers, not GCs. Same tech-enabled service thesis as BSIQ's pivot — different buyer. General Catalyst's investment is a validation signal for the model. All three updates to be incorporated into Slide 8 (competitive landscape) and Slide 15 (Why Now) in pitch deck v5.
+**Linked files:** [[2026-05-14 — Josh Kanner — Pitch Deck Revision Notes]]
+---
+
 ### 2026-04-07 00:30 — Ops — Master Folder Routed to Vault
 **Type:** Decision
 **Context:** Processed Project Performance Accelerator Initiative master folder (129 files).
