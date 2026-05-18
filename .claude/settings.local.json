@@ -57,7 +57,10 @@
       "PowerShell(cmd /c \"dir \"G:\\\\My Drive\\\\BuildSafe Brain\\\\\" 2>&1\")",
       "Bash(powershell *)",
       "Bash(python3 *)",
-      "Bash(python *)"
+      "Bash(python *)",
+      "Bash(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\" -Force)",
+      "Bash(Out-Null)",
+      "Bash(Write-Output \"Directory created\")"
     ]
   }
 }
