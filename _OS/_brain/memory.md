@@ -159,11 +159,11 @@ _Last entry: 2026-04-06_
 **Linked files:** [[user.md]]
 ---
 
-### 2026-05-18 — Strategy — Company Pivot: SaaS → Tech-Enabled Consulting Firm
+### 2026-05-18 — Strategy — Company Pivot: SaaS → Revenue-First Consulting + Insurance + Tech
 **Type:** Decision (in progress)
-**Context:** Aaron and Ev are actively evaluating a pivot from SaaS platform to tech-enabled consulting firm leveraging AI.
-**Entry:** This pivot aligns directly with Josh Kanner's feedback (May 14) — lead with expert service delivery, use AI as the engine not the product. BuildSafe IQ is repositioning from "AI platform" to a tech-enabled construction risk advisory firm. Aaron and Ev are evaluating the structure together. Decision is not finalized — do not present it as closed. This changes the fundraising story, the pitch deck, and the legal/operational structure. Bring to the Hession in-person meeting for legal/structural input. Why it matters: consulting model is more defensible early-stage, stickier, and validated by General Catalyst's $13.8M seed in Zero RFI (same thesis).
-**Linked files:** [[2026-05-14 — Josh Kanner — Pitch Deck Revision Notes]]
+**Context:** Aaron and Ev are actively evaluating a pivot from VC-funded SaaS platform to a self-funded consulting and insurance placement firm that invests in tech.
+**Entry:** Full model: tech-enabled construction risk consulting + insurance placement (all lines) generates revenue → revenue funds tech development → tech makes the service scalable. No VC dependency. Revenue-first, tech-enabled second. This means the $2.5M seed raise may no longer be the primary path. The Versailles Capital JV (insurance placement deal flow from Laurent Gray) is the first revenue stream of this model. Pitch deck and fundraising story need to be revisited in light of this pivot. Key advantage: founder-controlled, defensible from day one, not dependent on a raise closing. Aligns with Josh Kanner's tech-enabled service feedback and Zero RFI's model. Decision not finalized with Ev — in evaluation.
+**Linked files:** [[2026-05-14 — Josh Kanner — Pitch Deck Revision Notes]], [[user.md]]
 ---
 
 ### 2026-05-18 — BD — Versailles Capital JV Meeting (Brokerage)
