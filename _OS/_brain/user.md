@@ -6,7 +6,7 @@ _Last updated: 2026-04-06_
 ## Identity
 - **Name:** Aaron
 - **Role:** Founder & CEO, BuildSafe IQ Inc.
-- **Entity:** Delaware C-Corp (SaaS platform — BuildSafe IQ Inc.) | Wyoming LLC (brokerage — not yet registered, future)
+- **Entity:** Delaware C-Corp (BuildSafe IQ Inc.) — pivoting from SaaS platform to tech-enabled consulting firm leveraging AI. Wyoming LLC brokerage path is on pause / abandoned.
 - **Location:** Merrimack, NH
 ---
 
@@ -16,18 +16,19 @@ _Last updated: 2026-04-06_
 **Mission:** AI-powered construction risk intelligence for commercial GCs,
 subcontractors, developers, and investors.
 
-**BuildSafe IQ (Delaware C-Corp) — SaaS Platform:**
-- AI-powered construction risk intelligence platform
-- Revenue: SaaS subscriptions + risk management services
+**BuildSafe IQ (Delaware C-Corp) — Pivoting to Tech-Enabled Consulting:**
+- Repositioning from AI SaaS platform to tech-enabled construction risk advisory service
+- AI is the engine; certified risk professionals deliver the insight (QBRs, advisory)
+- Aaron and Ev actively evaluating the consulting firm structure and model
+- Revenue model: advisory service fees, not SaaS subscriptions
 
-**Insurance Brokerage (future — separate entity):**
-- Wyoming LLC, not yet registered
-- P&C, surplus lines — wholesale model
-- Intentionally separate from SaaS entity per investor feedback
-- Not referenced in current pitch deck
+**Insurance Brokerage:**
+- Wyoming LLC path is on pause — entity never formed, approach abandoned
+- Active JV exploration: Versailles Capital / Macallan Capital Partners (Laurent Gray)
+- JV structure under discussion: 20% profit sharing on their hospitality construction book of business
+- Brokerage legal entity structure TBD — needs to be resolved with Hession before any commitments
 
-**Go-to-Market:** Wholesale brokers (Halcyon, Burns & Wilcox, AmWINS, RT Specialty).
-No direct carrier appointments at launch.
+**Go-to-Market:** Wholesale brokers (Halcyon, Burns & Wilcox, AmWINS, RT Specialty) remain relevant as distribution channel for brokerage JV.
 
 **Tech Stack:** Google Workspace, GCP (Risk Sync), Replit, Anthropic Claude API,
 Google Apps Script, Atlassian, Fathom
@@ -91,7 +92,8 @@ _(Update manually as status changes)_
 - **Legal (19 open items):** Full tracker in `BuildSafe IQ/Legal/Legal Tracker.md`
   - Critical path: Investment instrument decision → cap table → IP assignment → founder vesting
   - First call: John Hession at Morse Barnes-Brown & Pendleton
-- **Brokerage entity:** Separate from SaaS C-Corp. Wyoming LLC not yet registered. NH agency license pending LLC formation.
+- **Brokerage entity:** Wyoming LLC path abandoned / on pause. JV with Versailles Capital (Laurent Gray) under discussion — 20% profit share on hospitality construction book. Legal structure TBD — bring to Hession meeting.
+- **Company pivot:** Aaron and Ev evaluating shift from SaaS platform to tech-enabled consulting firm leveraging AI. In progress — not finalized.
 - **Beta program:** Launching Q2 2026 — first contractor partners being engaged
 - **2025 financials:** In progress — accountant handoff needed
 - **Trend memory layer:** Next tech build (future)

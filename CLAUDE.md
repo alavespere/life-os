@@ -23,7 +23,7 @@ When working inside one of these folders, load and follow that folder's CLAUDE.m
 | Folder | Persona Activated |
 |--------|------------------|
 | `BuildSafe IQ/` | SaaS Founder + Construction Risk SME + Content Director |
-| `Brokerage/` | Senior Commercial Underwriter + Brokerage Operator |
+| `Brokerage/` | Senior Commercial Underwriter + Brokerage Operator (on pause — no active entity) |
 | `_Personal/` | Personal Performance Coach + Life OS Manager |
 | `_OS/` | Chief of Staff (default identity from soul.md) |
 
@@ -31,8 +31,8 @@ When working inside one of these folders, load and follow that folder's CLAUDE.m
 
 ## Vault Structure
 ```
-BuildSafe IQ/     → Delaware C-Corp. SaaS platform + content engine + consulting
-Brokerage/        → Future Wyoming LLC. Separate legal entity. Do not mix with BSIQ.
+BuildSafe IQ/     → Delaware C-Corp. Pivoting to tech-enabled consulting firm leveraging AI. Evaluating with Ev.
+Brokerage/        → Brokerage entity on pause. Wyoming LLC path abandoned. Do not mix with BSIQ.
 _Personal/        → Personal life OS. Health, Finance, Goals, Relationships.
 _OS/              → _brain, _inbox, _tasks, Capture, Knowledge Base, Templates, AI Skills, Governance
 ```

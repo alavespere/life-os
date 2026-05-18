@@ -152,6 +152,27 @@ _Last entry: 2026-04-06_
 **Linked files:** [[2026-05-14 — Josh Kanner — Pitch Deck Revision Notes]]
 ---
 
+### 2026-05-18 — Strategy — Wyoming LLC Brokerage Path Abandoned
+**Type:** Decision
+**Context:** Aaron confirmed the Wyoming LLC brokerage entity was never formed and the path is on pause / abandoned.
+**Entry:** All prior references to "future Wyoming LLC" for the brokerage entity are stale and should be disregarded. The entity was never registered. NH agency license was never pursued. The brokerage structure is now TBD — a JV with Versailles Capital (Laurent Gray, Macallan Capital Partners) is under active discussion instead. Legal structure for the brokerage needs to be resolved with John Hession before any commitments. Do not reference Wyoming LLC in any future context.
+**Linked files:** [[user.md]]
+---
+
+### 2026-05-18 — Strategy — Company Pivot: SaaS → Tech-Enabled Consulting Firm
+**Type:** Decision (in progress)
+**Context:** Aaron and Ev are actively evaluating a pivot from SaaS platform to tech-enabled consulting firm leveraging AI.
+**Entry:** This pivot aligns directly with Josh Kanner's feedback (May 14) — lead with expert service delivery, use AI as the engine not the product. BuildSafe IQ is repositioning from "AI platform" to a tech-enabled construction risk advisory firm. Aaron and Ev are evaluating the structure together. Decision is not finalized — do not present it as closed. This changes the fundraising story, the pitch deck, and the legal/operational structure. Bring to the Hession in-person meeting for legal/structural input. Why it matters: consulting model is more defensible early-stage, stickier, and validated by General Catalyst's $13.8M seed in Zero RFI (same thesis).
+**Linked files:** [[2026-05-14 — Josh Kanner — Pitch Deck Revision Notes]]
+---
+
+### 2026-05-18 — BD — Versailles Capital JV Meeting (Brokerage)
+**Type:** Update
+**Context:** Meeting scheduled for Tuesday 2026-05-19 at 2:30pm via Zoom. Set up by Keith Conway (CK Team LLC).
+**Entry:** Laurent Ronald Gray is CEO & Co-Founder of Macallan Capital Partners (recently merged with Versailles Capital to form a dedicated hospitality investment banking platform). 300+ institutional relationships across 24+ US markets. Focus: multifamily, mixed-use, industrial, hospitality. Colleen Cassel is his Chief of Staff. JV purpose: Laurent's hospitality construction clients need P&C placement — he provides deal flow, Aaron's brokerage handles placement. Proposed structure: 20% profit sharing at year-end on their book of business. Legal entity for the brokerage TBD — cannot make binding commitments until structure is resolved with Hession. Keith Conway has already briefed Laurent. Zoom: https://us06web.zoom.us/j/83504396869?pwd=r9d4o9xXwx6fvPjegs9KmcX6SzHiPb.1
+**Linked files:** [[user.md]]
+---
+
 ### 2026-04-07 00:30 — Ops — Master Folder Routed to Vault
 **Type:** Decision
 **Context:** Processed Project Performance Accelerator Initiative master folder (129 files).
