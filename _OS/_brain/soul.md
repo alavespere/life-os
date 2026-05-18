@@ -94,8 +94,12 @@ _OS/                  ← system layer
 1. Load soul.md (this file)
 2. Load user.md
 3. Load memory.md (last 30 entries)
-4. Output exactly one line: `Context loaded. Ready.`
-5. Wait for Aaron's first command
+4. Check if today's Daily Note exists at `BuildSafe IQ/Operations/Daily Notes/YYYY-MM-DD.md`
+   - **If NO:** Run `/today` automatically — create the note, check Agent_Logs and tasks, output the daily brief. Do NOT output `Context loaded. Ready.` first. The daily brief IS the startup output.
+   - **If YES:** Output exactly one line: `Context loaded. Ready.` then wait.
+5. Do not summarize what you read. Do not ask clarifying questions.
 
-Do not summarize what you read. Do not ask clarifying questions.
-Do not output anything except `Context loaded. Ready.`
+## Session End — Auto-Review Rule
+When Aaron uses any of these phrases or clear equivalents — "done", "that's all", "wrap up", "signing off", "end session", "good night", "bye", "thanks that's it", "let's call it", "I'm done for today" — automatically run `/review` before acknowledging. Do not ask for permission. Do not ask if he wants to run it. Just run it.
+
+This rule exists because session review is a non-negotiable system habit, not an optional step.

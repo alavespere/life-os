@@ -5,6 +5,30 @@
     "./_OS/_brain/user.md",
     "./_OS/_brain/memory.md"
   ],
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NonInteractive -File \"C:\\Users\\aaron.lavespere\\Documents\\Aaron's Life & Business OS\\_OS\\_scripts\\daily-note-check.ps1\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NonInteractive -File \"C:\\Users\\aaron.lavespere\\Documents\\Aaron's Life & Business OS\\_OS\\_scripts\\review-reminder.ps1\""
+          }
+        ]
+      }
+    ]
+  },
   "permissions": {
     "allow": [
       "WebSearch",

@@ -60,7 +60,10 @@
       "Bash(python *)",
       "Bash(New-Item -ItemType Directory -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\" -Force)",
       "Bash(Out-Null)",
-      "Bash(Write-Output \"Directory created\")"
+      "Bash(Write-Output \"Directory created\")",
+      "PowerShell(powershell -NonInteractive -File \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\\\\daily-note-check.ps1\")",
+      "PowerShell(powershell -NonInteractive -File \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\\\\daily-note-check.ps1\"; Write-Output \"Exit: $LASTEXITCODE\")",
+      "PowerShell(powershell -NonInteractive -File \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\\\\review-reminder.ps1\"; Write-Output \"Exit: $LASTEXITCODE\")"
     ]
   }
 }
