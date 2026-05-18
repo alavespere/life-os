@@ -63,7 +63,10 @@
       "Bash(Write-Output \"Directory created\")",
       "PowerShell(powershell -NonInteractive -File \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\\\\daily-note-check.ps1\")",
       "PowerShell(powershell -NonInteractive -File \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\\\\daily-note-check.ps1\"; Write-Output \"Exit: $LASTEXITCODE\")",
-      "PowerShell(powershell -NonInteractive -File \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\\\\review-reminder.ps1\"; Write-Output \"Exit: $LASTEXITCODE\")"
+      "PowerShell(powershell -NonInteractive -File \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_scripts\\\\review-reminder.ps1\"; Write-Output \"Exit: $LASTEXITCODE\")",
+      "PowerShell(Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\" -Force | Select-Object Name, @{N='Type';E={if\\($_.PSIsContainer\\){'DIR'}else{'FILE'}}} | Format-Table -AutoSize)",
+      "PowerShell(Write-Host \"=== _OS/AI Skills/ ===\" -ForegroundColor Cyan; Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\AI Skills\" -Force | ForEach-Object {if\\($_.PSIsContainer\\){\"[DIR] $_\"}else{\"$_\"}})",
+      "PowerShell(Write-Host \"=== _OS/_tasks/ ===\" -ForegroundColor Cyan; Get-ChildItem -Path \"C:\\\\Users\\\\aaron.lavespere\\\\Documents\\\\Aaron's Life & Business OS\\\\_OS\\\\_tasks\" -Force | ForEach-Object {if\\($_.PSIsContainer\\){\"[DIR] $_\"}else{\"$_\"}} | Sort-Object)"
     ]
   }
 }
