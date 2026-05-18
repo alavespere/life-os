@@ -1,5 +1,5 @@
 # TASK — Begin COI Automation & Insurance AI Build
-_Created: 2026-05-05 | Due: 2026-05-06 (Tomorrow) | Priority: HIGH_
+_Created: 2026-05-05 | Original Due: 2026-05-06 | Status: OVERDUE — needs decision | Last reviewed: 2026-05-18_
 
 ---
 

@@ -1,6 +1,7 @@
 # Skill Library — Index
 _All skills in this vault. Loaded via `.claude/settings.json` → `skillsPath: ./_skills`_
-_Last updated: 2026-04-27_
+_Last updated: 2026-05-18_
+_This is the authoritative skill system. `_OS/AI Skills/Skill — *.md` files are legacy duplicates and should be ignored for skill execution._
 
 ---
 
